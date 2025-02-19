@@ -1,2 +1,16 @@
 # Watan
-A variant of the famous board game Settlers of Watan.
+A variant of the famous board game **The Settlers of Catan** by Sherry Liu, Wayne Hao, and Yang Zhou from the University of Waterloo.
+
+## To Play
+
+In your command line tool, run
+```bash
+git clone https://github.com/CodingGhoost/Watan.git
+cd Watan
+```
+Choose a 'watan' executable that matches your operating system, and run
+```bash
+chmod +x ${name_of_your_executable}
+./${name_of_your_executable}
+```
+Now you should be able to enjoy the game in the terminal.
