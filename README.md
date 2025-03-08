@@ -15,6 +15,7 @@ Run `watan.exe` from the root directory.
 Choose a 'watan' executable that matches your operating system, and run
 ```bash
 chmod +x ${name_of_your_executable}
-./${name_of_your_executable}
+./${name_of_your_executable} -bonus
 ```
+Add the optional "-bonus" flag for enhanced features and visuals.
 Now you should be able to enjoy the game in the terminal.
