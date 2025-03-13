@@ -99,7 +99,7 @@ When a player rolls a 7:
 
 - The player can move the geese onto a tile of their choice except where the geese are currently placed, blocking it from producing resources until the geese are moved away.
 
-- The current player can steal one random resource from players who own achievements on that tile and have non-zero resources.
+- The current player can steal one random resource from another player who owns achievements on that tile and has non-zero resources.
 
 *~~'These geese are LOVELY, aren't they?'~~*
 
