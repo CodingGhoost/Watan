@@ -123,6 +123,7 @@ When running the game, run
 ```
 to load a save.  
 
-<p style="text-align: center;"><b>Have Fun!</b></p>
+<h1 align="center"><strong>Have Fun!</strong></h1>
+
 
 *Credits to Professor Godfrey, Professor Lushman, Professor Schmitz, and all CS246 Fall 2024 ISAs for the game rules and design guidelines.*  
