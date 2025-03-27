@@ -1,25 +1,5 @@
 # Students of Watan
 A variant of the famous board game **Settlers of Catan** developed in **C++** by Sherry Liu, Wayne Hao, and Yang Zhou from the University of Waterloo.  
-Credits to Professor Godfrey, Professor Lushman, Professor Schmitz, and all CS246 Fall 2024 ISAs for the game rules and design guidelines.  
-
-## Run the Game
-
-In your command line tool, run
-```bash
-git clone https://github.com/CodingGhoost/Watan.git
-cd Watan
-```
-### Windows
-Run `watan.exe` from the root directory.
-
-### MacOS and Linux
-Choose a 'watan' executable that matches your operating system, and run
-```bash
-chmod +x ${name_of_your_executable}
-./${name_of_your_executable} -bonus
-```
-Add the optional "-bonus" flag for enhanced features and visuals.  
-Now you should be able to enjoy the game in the terminal.
 
 ## Game Overview
 Watan is a strategy and resource management board game inspired by the classic "Settlers of Catan," set in a university-themed environment. Four players, each representing a student at the University of Waterloo, compete to be the first to achieve 10 victory points (VP). Players gather resources like Caffeine, Lab hours, Lectures, Study time, and Tutorials by strategically completing academic goals and achievements. But beware—the campus geese may occasionally overrun resources and hinder progress!
@@ -107,5 +87,42 @@ When a player rolls a 7:
 - During the turn, players are allowed to trade resources with another player.
 - One copy of resource at a time, but as many times as they wish!
 
+## Run the Game
 
+In your command line tool, run
+```bash
+git clone https://github.com/CodingGhoost/Watan.git
+cd Watan
+```
+### Windows
+Run `watan.exe` from the root directory.
 
+### MacOS and Linux
+Choose a 'watan' executable that matches your operating system, and run
+```bash
+chmod +x ${name_of_your_executable}
+./${name_of_your_executable}
+```
+You can add the "-bonus" flag for enhanced features and visuals (highly recommended!).  
+```bash
+./${name_of_your_executable} -bonus
+```
+
+## Save and Load    
+
+If you need to be away during a game, you can save the game and come back later.  
+In an on-going game, run 
+```bash
+save <fileName>
+```
+to generate a save named "fileName.sv"  
+
+When running the game, run
+```bash
+./${name_of_your_executable} -load <fileName>.sv
+```
+to load a save.  
+
+<p style="text-align: center;"><b>Have Fun!</b></p>
+
+*Credits to Professor Godfrey, Professor Lushman, Professor Schmitz, and all CS246 Fall 2024 ISAs for the game rules and design guidelines.*  
