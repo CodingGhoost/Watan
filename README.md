@@ -127,3 +127,7 @@ to load a save.
 
 
 *Credits to Professor Godfrey, Professor Lushman, Professor Schmitz, and all CS246 Fall 2024 ISAs for the game rules and design guidelines.*  
+  
+Due to Policy 71 at UWaterloo, we are not allowed to post the source code of the game. *~~althought we really goddamn want to!~~*  
+However, feel free to have a look on our UML design of the game :D  [uml.pdf](https://github.com/user-attachments/files/19881616/uml-final.pdf)
+
